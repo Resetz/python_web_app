@@ -1,0 +1,46 @@
+<h>This is Oasis</h>
+<a href="/mineApp/about">go to about</a>
+
+<style>
+button{
+    border-radius:10000px;
+    padding:10px;
+}
+
+</style>
+
+<button>{{name}}</button>
+<button>{{name2}}</button>
+<button>{{name3}}</button>
+
+
+{% if name %}
+
+<button>{{name}}{{name}}{{name}}{{name}}</button>
+
+{% endif %}
+
+<ol>
+    {% for x in range %}
+
+    <li>{{x}}</li>
+
+    {% endfor %}
+</ol>
+
+
+
+<table>
+
+    <tr>
+            {% for x in range  %}
+        {% for x in range inner %}
+        <td>{{x[1]}}</td>
+        {% endfor %}
+        {% endfor%}
+    </tr>
+
+</table>
+
+
+<src>

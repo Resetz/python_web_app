@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>{% block title %} DANI {% endblock %}</title>
+
+</head>
+
+
+
+<body>
+    <header>
+        {% block header %}
+            <nav>
+                <a href = "/firstApp/"> Home </a>
+                <a href = "/firstApp/about"> About </a>
+                <a href = "/firstApp/coolwebsites"> Cool Websites </a>
+            </nav>
+        {% endblock %}
+        </header>
+    <main>{% block main %} <p>this is a base paragraph :P</p>{% endblock %}</main>
+    <footer>{% block footer %}{% endblock %}</footer>
+    </body>
+    
+
+</html>

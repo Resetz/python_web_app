@@ -1,0 +1,30 @@
+
+
+
+<h1> FORM </h1>
+
+
+<form action="../greet/" method="POST">
+    {% csrf_token %}
+    <label>Username</label>
+    <input type="text" name="user">
+</br>
+<label>Password</label>
+<input type="password" name="pass">
+<br>
+<button type="submit">Submit</button>
+
+    </form>
+
+
+
+<h1>Join these people</h1>
+
+
+<ol>
+{% for person in persons %}
+<li>{{ person.firstName }}</li>
+
+
+{% endfor %}
+    </ol>
