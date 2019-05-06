@@ -25,7 +25,9 @@ SECRET_KEY = ')&^@mpg+#!no%-+3^yik6a_4+^zp&w1s3c4j)1@=5a!q!dqbn0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'https://vast-hollows-53175.herokuapp.com/'
+]
 
 
 # Application definition
@@ -121,3 +123,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR,'static')
+
