@@ -26,7 +26,7 @@ SECRET_KEY = ')&^@mpg+#!no%-+3^yik6a_4+^zp&w1s3c4j)1@=5a!q!dqbn0'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'https://vast-hollows-53175.herokuapp.com/'
+    'vast-hollows-53175.herokuapp.com/'
 ]
 
 
